@@ -11,4 +11,4 @@ wide range of applications, and could handle many types of road networks; the ex
 reached the most advanced level of current technology (SOTA) in the real-time dynamic path planning task of multi-vehicles
 and had the ability to explain path selection; the approach could not only effectively choose the best path, but also explain the
 reasons behind the choice, which provided a novel and efficient solution for dynamic navigation in complex traffic
-environment. Prepared one paper based on the project and submitted it to ARXI
+environment. 
