@@ -123,7 +123,7 @@ def get_estimated_time(k_shortest_paths):
     
     except Exception as e:
         print(f"An error occurred: {e}")
-        # 根据您的需要，这里可以添加更多的错误处理逻辑，例如回退到上一个状态或重试连接。
+        
     
     return total_time  
 def get_node_id(start_edge_id,path):
@@ -152,8 +152,8 @@ def count_traffic_lights(node_ids, net_path):
     return count#, light_ids
 import json
 import requests
-api_url= "https://gpt-api.hkust-gz.edu.cn/v1/chat/completions"
-api_key = "160ecb30bc154b9dac0d0209bfae62955a5577f813cc45b9a21cb97aa1cb01d6"
+api_url= "https"
+api_key = "160"
 
 def create_chat_completion(api_key, messages, temperature=0.5):
     headers = {
@@ -161,7 +161,7 @@ def create_chat_completion(api_key, messages, temperature=0.5):
         "Authorization": f"Bearer {api_key}"
     }
     data = {
-        "model": "gpt-3.5-turbo",  # 或者其他你想要使用的模型
+        "model": "gpt-3.5-turbo",  
         "messages": messages,
         "temperature": temperature
     }
@@ -319,11 +319,11 @@ def run():
                             print(f"best_route is {best_route}")
                             # 假设vid_to_update是需要更新路线的车辆ID，已知车辆当前在"A"，新路径为best_route=["A","D","B","C"]
                             traci.route.add(str(sim_time), best_route)
-                            # 假设我们已经有了新的最优路径best_path，并且需要更新车辆"vid_to_update"
+                            # 假设已经有了新的最优路径best_path，并且需要更新车辆"vid_to_update"
                             vid_to_update = "{}".format(vechicle_id)
                             # 确保车辆已经存在并且在仿真中活动
                             if traci.vehicle.getRoadID(vid_to_update):
-                                # 获取车辆当前的边（这里简化处理，实际可能需要更复杂的逻辑来确保车辆确实位于"A"）
+                                # 获取车辆当前的边
                                 current_edge = traci.vehicle.getRoadID(vid_to_update)
                                 # 确保车辆当前位于新路径的起点
                                 if current_edge == best_route[0]:
