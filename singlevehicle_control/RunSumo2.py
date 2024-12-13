@@ -128,7 +128,7 @@ def get_estimated_time(k_shortest_paths):
     
     except Exception as e:
         print(f"An error occurred: {e}")
-        # 根据您的需要，这里可以添加更多的错误处理逻辑，例如回退到上一个状态或重试连接。
+
     
     return total_time        
 
@@ -162,7 +162,7 @@ def simulate(chose_path,v_id):
         # 输出车辆状态或其他处理
         print(f"Vehicle {v_id} now on edge {traci.vehicle.getRoadID(v_id)}")
 
-# 注意：假设v_id和chose_path已经在函数外部正确定义和初始化             
+             
 
 ###定义绕行函数，
 def avoidEdge(vehId, edgeId):
@@ -428,7 +428,3 @@ if __name__ == '__main__':
     run()
 
 
-
-###########58043  
-
-###现在是的问题是，决策时间会对决策行为产生影响，进而对决策行为产生影响，所以，如果能减少决策数量，可能结果会好点
