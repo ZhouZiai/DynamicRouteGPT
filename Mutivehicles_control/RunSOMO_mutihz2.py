@@ -353,9 +353,9 @@ def run():
     traci.close()
 if __name__ == '__main__':
     sumo_path = os.path.join(os.environ['SUMO_HOME'],'bin') + "/"
-    cfg_file=r'D:\intereting\DynamicNavigation\findPath\findPath\test_data\孙倩\Hangzhou-4x4\hangzhou.sumocfg'
-    net_file= r'D:\intereting\DynamicNavigation\findPath\findPath\test_data\孙倩\Hangzhou-4x4\hangzhou.net.xml'
-    rou_file=r'D:\intereting\DynamicNavigation\findPath\findPath\test_data\孙倩\Hangzhou-4x4\hangzhou.rou.xml'
+    cfg_file=r'D:\intereting\DynamicNavigation\findPath\findPath\test_data\Hangzhou-4x4\hangzhou.sumocfg'
+    net_file= r'D:\intereting\DynamicNavigation\findPath\findPath\test_data\Hangzhou-4x4\hangzhou.net.xml'
+    rou_file=r'D:\intereting\DynamicNavigation\findPath\findPath\test_data\Hangzhou-4x4\hangzhou.rou.xml'
     netData = sumolib.net.readNet(net_file)  # 读取路网文件
     car_num = 10
     start_edges=['road_0_4_0','road_1_5_3','road_5_4_2','road_1_0_1','road_4_0_1','road_4_0_1','road_1_5_3','road_5_4_2','road_5_2_2','road_5_4_2']
