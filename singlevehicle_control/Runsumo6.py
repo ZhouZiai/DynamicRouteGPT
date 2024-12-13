@@ -397,15 +397,15 @@ def run():
 #     run()
 if __name__ == '__main__':
     sumo_path = os.path.join(os.environ['SUMO_HOME'], 'bin') + "/"
-    # net_file = r'D:\\intereting\\DynamicNavigation\\findPath\\findPath\\test_data\\孙倩\\grid4x4\\grid4x4.net.xml'  # 路网文件
-    # rou_file = r'D:\\intereting\\DynamicNavigation\\findPath\\findPath\\test_data\\孙倩\\grid4x4\\grid4x4.rou.xml'  # 路网文件
-    # cfg_file = r'D:\\intereting\\DynamicNavigation\\findPath\\findPath\\test_data\\孙倩\\grid4x4\\grid4x4.sumocfg'
+    # net_file = r'D:\\intereting\\DynamicNavigation\\findPath\\findPath\\test_data\\grid4x4\\grid4x4.net.xml'  # 路网文件
+    # rou_file = r'D:\\intereting\\DynamicNavigation\\findPath\\findPath\\test_data\\grid4x4\\grid4x4.rou.xml'  # 路网文件
+    # cfg_file = r'D:\\intereting\\DynamicNavigation\\findPath\\findPath\\test_data\\grid4x4\\grid4x4.sumocfg'
     # netData = sumolib.net.readNet(net_file)
     # start_edge = "right1D1"
     # end_edge = "A0left0"
-    net_file = r'D:\\intereting\\DynamicNavigation\\findPath\\findPath\\test_data\\孙倩\\Hangzhou-4x4\\hangzhou.net.xml'  # 路网文件
-    rou_file = r'D:\\intereting\\DynamicNavigation\\findPath\\findPath\\test_data\\孙倩\\Hangzhou-4x4\\Hangzhou_5.rou.xml'  # 路网文件
-    cfg_file = r'D:\\intereting\\DynamicNavigation\\findPath\\findPath\\test_data\\孙倩\\Hangzhou-4x4\\hangzhou.sumocfg'
+    net_file = r'D:\\intereting\\DynamicNavigation\\findPath\\findPath\\test_data\\Hangzhou-4x4\\hangzhou.net.xml'  # 路网文件
+    rou_file = r'D:\\intereting\\DynamicNavigation\\findPath\\findPath\\test_data\\Hangzhou-4x4\\Hangzhou_5.rou.xml'  # 路网文件
+    cfg_file = r'D:\\intereting\\DynamicNavigation\\findPath\\findPath\\test_data\\Hangzhou-4x4\\hangzhou.sumocfg'
     netData = sumolib.net.readNet(net_file) 
     edges = netData.getEdges()
     # 加载网络
