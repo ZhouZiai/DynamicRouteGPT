@@ -73,7 +73,7 @@ extract_routes_by_ids(rou_grid_path, grid_30_output_file, grid_30)
 extract_routes_by_ids(rou_grid_path, grid_40_output_file, grid_40)
 extract_routes_by_ids(rou_grid_path, grid_50_output_file, grid_50)
 
-# rou_Hangzhou_path = r'test_data\孙倩\Hangzhou-4x4\hangzhou.rou.xml'
+# rou_Hangzhou_path = r'test_data\angzhou-4x4\hangzhou.rou.xml'
 # Hangzhou_5_output_file = 'Hangzhou_5_vechle.xml'
 # Hangzhou_10_output_file = 'Hangzhou_10_vechle.xml'
 # Hangzhou_20_output_file = 'Hangzhou_20_vechle.xml'
