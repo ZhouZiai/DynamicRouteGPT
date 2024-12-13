@@ -1,0 +1,5 @@
+tripinfo id的个数：75
+所有 arrival值的总和：40981.00
+所有duration值的总和：34181.00
+所有waitingTime 值的总和：24653.00
+所有timeLoss值的总和：29181.49

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-08-08 13:14:11 by Eclipse SUMO GUI Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="D:\test_dataset\test\test.net.xml"/>
+        <route-files value="D:\test_dataset\test\test.rou.xml"/>
+        <additional-files value="D:\test_dataset\test\test.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="D:\test_dataset\test\test_p15.xml"/>
+        <tripinfo-output.write-unfinished value="true"/>
+    </output>
+
+    <time>
+        <begin value="4.10"/>
+        <end value="300"/>
+    </time>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <report>
+        <verbose value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="64882"/>
+    </traci_server>
+
+</configuration>

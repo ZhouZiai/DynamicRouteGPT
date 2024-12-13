@@ -1,0 +1,3 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tripinfos><tripinfo id="veh_0" depart="3.00" departLane="top2C3_0" departPos="5.10" departSpeed="0.00" departDelay="3.00" arrival="95.00" arrivalLane="D3top3_0" arrivalPos="286.40" arrivalSpeed="12.79" duration="92.00" routeLength="894.86" waitingTime="9.00" waitingCount="1" stopTime="0.00" timeLoss="22.17" rerouteNo="0" devices="tripinfo_veh_0" vType="DEFAULT_VEHTYPE" speedFactor="0.94" vaporized="" />
+    </tripinfos>

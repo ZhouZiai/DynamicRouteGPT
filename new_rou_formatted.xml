@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<routes>
+    <vehicle id="v1" depart="0">
+        <route edges="right1D1 D1C1 C1B1 B1A1 A1A2 A2A3 A3left3"/>
+        
+    
+    </vehicle>
+    <vehicle id="v5" depart="0">
+        <route edges="bottom2C0 C0C1 C1C2 C2D2 D2right2"/>
+        
+    
+    </vehicle>
+    <vehicle id="v6" depart="0">
+        <route edges="bottom0A0 A0left0"/>
+        
+    
+    </vehicle>
+</routes>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <input>
+    <net-file value="cologne3.net.xml"/>
+	  <route-files value="cologne3.rou.xml"/>
+  </input>
+  	<processing>
+    	<ignore-route-errors value="true"/>
+   </processing>
+    <report>
+       <verbose value="true"/>
+       <no-step-log value="true"/>
+   </report>
+  <time>
+    <begin value="25200"/>
+    <end value="28800"/>
+  </time>
+     <output>
+       <tripinfo-output value="cologne3_P15.xml"/>
+       <tripinfo-output.write-unfinished value="true"/>
+   </output>
+   <traci_server>
+       <remote-port value="64882"/>
+   </traci_server>
+</configuration>

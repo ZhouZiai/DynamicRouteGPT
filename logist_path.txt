@@ -1,0 +1,16 @@
+sumoBinary = sumo_path + "sumo-gui"  # -gui就是打开gui界面
+sumoCmd = [sumoBinary, "-n", net_file, "-r", rou_file,"-c", cfg_file]
+traci.start(sumoCmd)
+shortest_edge_list = ["1","2","3","4","5"]
+step = 0
+pass_edges = []
+v_id = "V1"
+route_id = "R1"
+traci.route.add(shortest_list)
+traci.vehicle.add(v_id, route_id)
+simulationEnd = shortest_path[-1]
+while traci.simulation.getArrivedIDList() != simulationEnd:
+    traci.simulationStep()
+    step += 1
+traci.close()
+

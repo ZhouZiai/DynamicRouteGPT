@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <input>
+    <net-file value="grid4x4.net.xml"/>
+    <route-files value="grid4x4.rou.xml"/>
+  </input>
+	<processing>
+    	<ignore-route-errors value="true"/>
+   </processing>
+   <time>
+		<begin value="0"/>
+
+	</time>
+   <report>
+       <verbose value="true"/>
+       <no-step-log value="true"/>
+   </report>
+   <output>
+       <tripinfo-output value="grid_P15.xml"/>
+       <tripinfo-output.write-unfinished value="true"/>
+   </output>
+   <traci_server>
+       <remote-port value="64882"/>
+   </traci_server>
+</configuration>

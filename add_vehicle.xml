@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<routes>
+    <vehicle id="v1">
+        <route/>
+    </vehicle>
+    <vehicle id="v5">
+        <route/>
+    </vehicle>
+    <vehicle id="v6">
+        <route/>
+    </vehicle>
+</routes>
