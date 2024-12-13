@@ -39,9 +39,9 @@ def save_network():
 
 # graph_path = r'D:\intereting\DynamicNavigation\findPath\findPath\network_route.pkl'
 #gridpath
-graph_path = r'D:\intereting\DynamicNavigation\findPath\findPath\test_data\孙倩\grid4x4\network_grid.pkl'
+graph_path = r'D:\intereting\DynamicNavigation\findPath\findPath\test_data\grid4x4\network_grid.pkl'
 #Hangzhou
-# graph_path = r'D:\intereting\DynamicNavigation\findPath\findPath\test_data\孙倩\Hangzhou-4x4\hangzhou_route.pkl'
+# graph_path = r'D:\intereting\DynamicNavigation\findPath\findPath\test_data\Hangzhou-4x4\hangzhou_route.pkl'
 
 def load_network():
     # 从文件加载图
@@ -157,29 +157,4 @@ if __name__ == '__main__':
     G = load_network()
     run()
 
-# depart_times=[1017,1322,1386,1613,1653,1787,1803,1844,1851,1920,1971,2047,2471]
-# start_edges=['left0A0','left0A0','left0A0','left0A0','left0A0','top1B3','top1B3','top1B3','top1B3','top1B3','top1B3','top1B3','top1B3']
-# end_edges=['right0D0','right0D0','right0D0','right0D0','right0D0','right0D0','right0D0','right0D0','right0D0','right0D0','right0D0','right0D0','right0D0']
 
-# depart_times=[443, 2049]
-# start_edges=['left0A0', 'left0A0']
-# end_edges=['right0D0', 'B3A3']
-# depart_times=[112,1395,1417,1495,1501,1605,1662,1684,1810,1994]
-# depart_times=['top2C3','top2C3','top2C3','left0A0','left0A0','left0A0','left0A0','left0A0','left0A0','left0A0']
-# end_edges=['B3A3','B3A3','B3A3','B3A3','B3A3','B3A3','B3A3','B3A3','B3A3','B3A3']
-# depart_times=[ 287,488,547,604,695,1449,1508,1665,1681,1730,1789,1815,1834,2010,2162.00]
-# start_edges=[top2C3','top2C3','top2C3','top2C3','top2C3','top2C3','top2C3','top2C3','top2C3','top2C3_0,top2C3','top2C3','top2C3','top2C3','top2C3_0]
-# end_edges=[left0A0','left0A0','left0A0','left0A0','left0A0','left0A0','left0A0','left0A0','left0A0','left0A0_1,left0A0','left0A0','left0A0','left0A0','left0A0_0]
-
-# depart_times=[1800, 2045, 2126, 2306]
-# start_edges=[top2C3,top2C3,top2C3,top2C3]
-# end_edges=[D0right0,C3B3,C3B3,C3B3]
-# depart_times=[863,926,1096,1395,1397,1819,1872,1874,1929,1931,1996,1998,2031,2033,2038,2159,2161,2746,2970,3171.00]
-# start_edges=['bottom1B0','bottom1B0','bottom1B0','bottom1B0','bottom1B0','bottom1B0','bottom1B0','bottom1B0','bottom1B0','bottom1B0','bottom1B0','bottom1B0','bottom1B0','bottom1B0','bottom1B0','bottom1B0','bottom1B0','bottom1B0','bottom1B0','bottom1B0']
-# end_edges=['B0C0','B0C0','B0C0','B0C0','B0C0','B0C0','B0C0','B0C0','B0C0','B0C0_0,B0C0','B0C0','B0C0','B0C0','B0C0','B0C0','B0C0','B0C0','B0C0','B0C0_0']
-# depart_times=[1393,1612,1796,1805,1814,1871,1927,2173,2179,2333,2612,3325]
-# arrivel=['left2A2','left2A2','left2A2','left2A2','left2A2','left2A2','left2A2','left2A2','left2A2','left2A2','left2A2','left2A2']
-# # end_edges=['A2A1','A2A1','A2A1','A2A1','A2A1','A2A1','A2A1','A2A1','A2A1','A2A1','A2A1','A2A1']
-# depart_times=[820,1055,1128,1603,1603,1662,1694,1712,1714,1770,1801,1877,1977,2004]
-# start_edges=[top2C3,top2C3,top2C3,top2C3,top2C3,top2C3,top2C3,top2C3,top2C3,top2C3,top2C3,top2C3,top2C3,top2C3]
-# end_edges=[C3B3,C3B3,C3B3,C3B3_2, C3B3_2, C3B3,C3B3,C3B3,C3B3,C3B3,C3B3,C3B3,C3B3,C3B3]
