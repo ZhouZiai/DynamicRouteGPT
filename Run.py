@@ -123,7 +123,7 @@ def get_estimated_time(k_shortest_paths):
     
     except Exception as e:
         print(f"An error occurred: {e}")
-        # 根据您的需要，这里可以添加更多的错误处理逻辑，例如回退到上一个状态或重试连接。
+        
     
     return total_time  
 def get_node_id(start_edge_id,path):
@@ -152,8 +152,8 @@ def count_traffic_lights(node_ids, net_path):
     return count#, light_ids
 import json
 import requests
-api_url= "https://gpt-api.hkust-gz.edu.cn/v1/chat/completions"
-api_key = "160ecb30bc154b9dac0d0209bfae62955a5577f813cc45b9a21cb97aa1cb01d6"
+api_url= "https"
+api_key = "160"
 
 def create_chat_completion(api_key, messages, temperature=0.5):
     headers = {
@@ -161,7 +161,7 @@ def create_chat_completion(api_key, messages, temperature=0.5):
         "Authorization": f"Bearer {api_key}"
     }
     data = {
-        "model": "gpt-3.5-turbo",  # 或者其他你想要使用的模型
+        "model": "gpt-3.5-turbo", 
         "messages": messages,
         "temperature": temperature
     }
@@ -373,6 +373,3 @@ if __name__ == '__main__':
 #     # 开始运行仿真
 #     run()
 
-
-# network          start_edge      end_edge       num    1     5%     10%     15%   20%    25%    30%
-# ingolstad21     -30482615#4      -315358244     4283         214     428  642     856
