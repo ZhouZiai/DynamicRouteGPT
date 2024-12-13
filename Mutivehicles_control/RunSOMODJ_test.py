@@ -1,6 +1,6 @@
 import os, sys
 
-if 'SUMO_HOME' in os.environ:  # 检查SUMO_HOME是否在系统环境变量中，进行下一步仿真的必要条件
+if 'SUMO_HOME' in os.environ:  # 检查SUMO_HOME是否在系统环境变量中
     tools = os.path.join(os.environ['SUMO_HOME'], 'tools')
 
     sys.path.append(tools)
@@ -57,7 +57,7 @@ def calculate_path_travel_time(G, path):
 
 
 def run():
-    sumoBinary = sumo_path + "sumo-gui"  # -gui就是打开gui界面
+    sumoBinary = sumo_path + "sumo-gui"  # 打开gui界面
     sumoCmd = [sumoBinary, "-n", net_file, "-r", rou_file,"-c", cfg_file]
     traci.start(sumoCmd)
     step = 0
