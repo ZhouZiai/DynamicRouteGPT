@@ -247,10 +247,7 @@ def add_detectors_on_path(netData, path):
             # 注意：实际使用时，需要确保traci已初始化并处于模拟运行状态
             # print(f"Detector {detector_id} added at position {detector_position} on lane {lane_id}")
             
-    # 注意：在仿真结束后，记得清理或保存检测器数据
 
-# 示例用法：
-#现在，让GPT做决策，有了
 # light_count, light_ids = count_and_return_traffic_lights(node_ids, net_path)
 
 # print(f"路口ID {node_ids} 存在红绿灯组的个数为 {light_count}")
@@ -299,8 +296,8 @@ def add_detectors_on_path(netData, path):
 
 import json
 import requests
-api_url= "https://gpt-api.hkust-gz.edu.cn/v1/chat/completions"
-api_key = "160ecb30bc154b9dac0d0209bfae62955a5577f813cc45b9a21cb97aa1cb01d6"
+api_url= "http"
+api_key = "160ecb3"
 
 def create_chat_completion(api_key, messages, temperature=0.5):
     headers = {
@@ -327,7 +324,7 @@ def create_chat_completion(api_key, messages, temperature=0.5):
 # total_time = [60,50,10]
 # traffic_light_count = [2,2,2]
 # error_edge = ['g']
-# 使用示例
+
 
 # print(best_path)  # 输出：['a', 'g', 'h', 'd']
 # print(choice_reason)
