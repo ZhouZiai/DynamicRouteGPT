@@ -405,8 +405,6 @@ if __name__ == '__main__':
 
 ###########58043   |||(3)58228
 
-###现在是的问题是，决策时间会对决策行为产生影响，进而对决策行为产生影响，所以，如果能减少决策数量，可能结果会好点
-# ##现在目前来看，一辆车的确看不出效果，现在先暂停手头的研究，先开始写报告
 # ##grid4*4
 #     net_file = r'D:\\intereting\\DynamicNavigation\\findPath\\findPath\\test_data\\孙倩\\grid4x4\\grid4x4.net.xml'  # 路网文件
 #     rou_file = r'D:\\intereting\\DynamicNavigation\\findPath\\findPath\\test_data\\孙倩\\grid4x4\\grid4x4.rou.xml'  # 路网文件
