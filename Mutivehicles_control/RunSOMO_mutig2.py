@@ -345,9 +345,9 @@ def run():
 # 程序入口
 if __name__ == '__main__':
     sumo_path = os.path.join(os.environ['SUMO_HOME'], 'bin') + "/"
-    net_file = r'D:\\intereting\\DynamicNavigation\\findPath\\findPath\\test_data\\孙倩\\grid4x4\\grid4x4.net.xml'# 路网文件
-    rou_file = r'D:\\intereting\\DynamicNavigation\\findPath\\findPath\\test_data\\孙倩\\grid4x4\\grid4x4.rou.xml'# 路网文件
-    cfg_file = r'D:\\intereting\\DynamicNavigation\\findPath\\findPath\\test_data\\孙倩\\grid4x4\\grid4x4.sumocfg'
+    net_file = r'D:\\intereting\\DynamicNavigation\\findPath\\findPath\\test_data\\grid4x4\\grid4x4.net.xml'# 路网文件
+    rou_file = r'D:\\intereting\\DynamicNavigation\\findPath\\findPath\\test_data\\grid4x4\\grid4x4.rou.xml'# 路网文件
+    cfg_file = r'D:\\intereting\\DynamicNavigation\\findPath\\findPath\\test_data\\grid4x4\\grid4x4.sumocfg'
     netData = sumolib.net.readNet(net_file)
     print(netData)
     car_num  =19
@@ -357,41 +357,3 @@ if __name__ == '__main__':
     edges = netData.getEdges()
     G = load_network()
     run()
-
-
-    # car_num  =19
-    # depart_times= [820, 1055, 1128, 1603, 1662, 1694, 1712, 1713, 1770, 1800, 1801, 1873, 1877, 1977, 2004, 2045, 2126, 2305, 2746]
-    # start_edges= ['top2C3', 'top2C3', 'top2C3', 'top2C3', 'top2C3', 'top2C3', 'top2C3', 'top2C3', 'top2C3', 'top2C3', 'top2C3', 'top2C3', 'top2C3', 'top2C3', 'top2C3', 'top2C3', 'top2C3', 'top2C3', 'top2C3']
-    # end_edges= ['C3B3', 'C3B3', 'C3B3', 'C3B3', 'C3B3', 'C3B3', 'C3B3', 'C3B3', 'C3B3', 'D0right0', 'C3B3', 'C3B3', 'C3B3', 'C3B3', 'C3B3', 'C3B3', 'C3B3', 'C3B3', 'C3B3']
-
-
-    # car_num  =13
-    # depart_times= [1393, 1612, 1796, 1805, 1814, 1871, 1927, 2173, 2179, 2274, 2333, 2612, 3325]
-    # start_edges= ['left2A2', 'left2A2', 'left2A2', 'left2A2', 'left2A2', 'left2A2', 'left2A2', 'left2A2', 'left2A2', 'left2A2', 'left2A2', 'left2A2', 'left2A2']
-    # end_edges= ['A2A1', 'A2A1', 'A2A1', 'A2A1', 'A2A1', 'A2A1', 'A2A1', 'A2A1', 'A2A1', 'A2A1', 'A2A1', 'A2A1', 'A2A1']
-
-    # car_num  =21
-    # depart_times= [863, 926, 1096, 1395, 1396, 1819, 1872, 1874, 1929, 1996, 2031, 2038, 2159, 1929, 1996, 2031, 2038, 2159, 2746, 2970, 3171]
-    # start_edges= ['bottom1B0', 'bottom1B0', 'bottom1B0', 'bottom1B0', 'bottom1B0', 'bottom1B0', 'bottom1B0', 'bottom1B0', 'bottom1B0', 'bottom1B0', 'bottom1B0', 'bottom1B0', 'bottom1B0', 'bottom1B0', 'bottom1B0', 'bottom1B0', 'bottom1B0', 'bottom1B0', 'bottom1B0', 'bottom1B0', 'bottom1B0']
-    # end_edges= ['B0C0', 'B0C0', 'B0C0', 'B0C0', 'B0C0', 'B0C0', 'B0C0', 'B0C0', 'B0C0', 'B0C0', 'B0C0', 'B0C0', 'B0C0', 'B0C0', 'B0C0', 'B0C0', 'B0C0', 'B0C0', 'B0C0', 'B0C0', 'B0C0']
-
-
-    # car_num  =18
-    # depart_times= [819,1214,1507,1607,1609,1633,1655,1658,1685,1731,1844,1862,1900,1926,1945,2019,2094,2258,2326,2677,2855]
-    # start_edges= ['right1D1','right1D1','right1D1','right1D1','right1D1','right1D1','right1D1','right1D1','right1D1','right1D1','right1D1','right1D1','right1D1','right1D1','right1D1','right1D1','right1D1','right1D1','right1D1','right1D1','right1D1']
-    # end_edges= ['D1D2','D1D2','D1D2','D1D2','D1D2','D1D2','D1D2','D1D2','D1D2','D1D2','D1D2','D1D2','D1D2','D1D2','D1D2','D1D2','D1D2','D1D2','D1D2','D1D2','D1D2']
- 
-
-    # depart_times= [287,488,547,604,695,1447,1508,1665,1681,1726,1730,1789,1815,1824,1834,2010,2023,2162,2172,2181,2306,2321,2332,2629]
-    # start_edges= ['left0A0','left0A0','left0A0','left0A0','left0A0','left0A0','left0A0','left0A0','left0A0','left0A0','left0A0','left0A0','left0A0','left0A0','left0A0','left0A0','left0A0','left0A0','left0A0','left0A0','left0A0','left0A0','left0A0','left0A0']
-    # end_edges= ['left0A0','left0A0','left0A0','left0A0','left0A0','left0A0','left0A0','left0A0','left0A0','left0A0','left0A0','left0A0','left0A0','left0A0','left0A0','left0A0','left0A0','left0A0','left0A0','left0A0','left0A0','left0A0','left0A0','left0A0']
-   
-  
-# depart_times= [443,1017,1322,1386,1593,1613,1653,1787,1803,1842,1843,1849,1920,1970,2047,2311,2471,2707,2934]
-# start_edges= ['right0D0','right0D0','right0D0','right0D0','right0D0','right0D0','right0D0','right0D0','right0D0','right0D0','right0D0','right0D0','right0D0','right0D0','right0D0','right0D0','right0D0','right0D0']
-# end_edges= ['right0D0','right0D0','right0D0','right0D0','right0D0','right0D0','right0D0','right0D0','right0D0','right0D0','right0D0','right0D0','right0D0','right0D0','right0D0','right0D0','right0D0','right0D0','right0D0']
-    
-
-# depart_times= [ 1145,1199, 1205,  1306, 1329, 1385, 1395, 1417, 1495, 1501, 1605, 1608, 1659, 1684, 1763, 1773, 1809, 1854, 1858, 1863, 1992, 1993, 2000, 2049, 2051, 2169, 2192, 2254, 2377, 2479, 2824, 2848]
-# start_edges= ['top1B3',   'top1B3', 'top1B3', 'top1B3', 'top1B3', 'top1B3', 'top1B3', 'top1B3', 'top1B3', 'top1B3', 'top1B3', 'top1B3', 'top1B3', 'top1B3', 'top1B3', 'top1B3', 'top1B3', 'top1B3', 'top1B3', 'top1B3', 'top1B3', 'top1B3', 'top1B3', 'top1B3', 'top1B3', 'top1B3', 'top1B3', 'top1B3', 'top1B3', 'top1B3']
-# end_edges= [ 'B3A3',  'B3A3', 'D3right3', 'D3right3', 'B3A3', 'B3A3', 'B3A3', 'B3A3', 'B3A3', 'B3A3', 'B3A3', 'B3A3', 'B3A3', 'B3A3', 'B3A3', 'B3A3', 'B3A3', 'B3A3', 'B3A3', 'B3A3', 'B3A3', 'B3A3', 'B3A3', 'B3A3', 'D0right0', 'B3A3', 'B3A3', 'B3A3', 'B3A3']
