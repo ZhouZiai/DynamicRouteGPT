@@ -39,9 +39,9 @@ def save_network():
 
 # graph_path = r'D:\intereting\DynamicNavigation\findPath\findPath\network_route.pkl'
 #gridpath
-# graph_path = r'D:\intereting\DynamicNavigation\findPath\findPath\test_data\孙倩\grid4x4\network_grid.pkl'
+# graph_path = r'D:\intereting\DynamicNavigation\findPath\findPath\test_data\grid4x4\network_grid.pkl'
 #Hangzhou
-graph_path = r'D:\intereting\DynamicNavigation\findPath\findPath\test_data\孙倩\Hangzhou-4x4\hangzhou_route.pkl'
+graph_path = r'D:\intereting\DynamicNavigation\findPath\findPath\test_data\Hangzhou-4x4\hangzhou_route.pkl'
 
 def load_network():
     # 从文件加载图
