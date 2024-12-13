@@ -170,8 +170,8 @@ def parse_result(result):
 
 import json
 import requests
-api_url= "https://gpt-api.hkust-gz.edu.cn/v1/chat/completions"
-api_key = "160ecb30bc154b9dac0d0209bfae62955a5577f813cc45b9a21cb97aa1cb01d6"
+api_url= "https"
+api_key = "160"
 
 def create_chat_completion(api_key, messages, temperature=0.5):
     headers = {
